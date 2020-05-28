@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">fortestapp</string>
+
+    <!-- first screen -->
+    <string name="connect">CONNECT</string>
+    <string name="connect_fmt">CONNECT %1$d sec</string>
+
+    <!-- second screen -->
+    <string name="close_second_screen">Close Screen</string>
+
+</resources>

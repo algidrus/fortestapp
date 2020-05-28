@@ -1,0 +1,3 @@
+rootProject.name='fortestapp'
+include ':theapp'
+include ':somesubproject'
