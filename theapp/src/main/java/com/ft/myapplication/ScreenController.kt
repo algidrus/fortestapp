@@ -17,11 +17,8 @@ class ScreenController private constructor(var activity: AppCompatActivity) {
         private var screenCtrl: ScreenController? = null
 
         fun initialize(activity: AppCompatActivity) {
-            if (screenCtrl == null) {
                 screenCtrl = ScreenController(activity)
-            }
-
-            instance().setScreen(ScreenType.Start)
+                instance().setScreen(ScreenType.Start)
         }
 
         fun restore(activity: AppCompatActivity) {
@@ -39,12 +36,12 @@ class ScreenController private constructor(var activity: AppCompatActivity) {
 
     private fun restore(activity_: AppCompatActivity) {
         activity = activity_
+        setScreen(ScreenType.Start)
     }
 
     private fun setScreen(screen: ScreenType) {
         val fm = activity.supportFragmentManager
         val transaction = fm.beginTransaction()
-//        transaction.setCustomAnimations(R.anim.show_fragment, R.anim.hide_fragment)
 
         when (screen) {
             ScreenType.None -> transaction.add(R.id.main_activity_layout, FragmentStart(), "")
