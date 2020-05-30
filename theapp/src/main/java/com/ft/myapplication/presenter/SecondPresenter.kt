@@ -12,7 +12,6 @@ class SecondPresenter(private val view: SecondView) : BasePresenter {
     private var model = ModelFacade.instance()
 
     fun done() {
-        model.setSelectedFlag(FlagType.British)
         ScreenController.instance().screenAccomplished(
             screen,
             ScreenController.AccomplishedResult(

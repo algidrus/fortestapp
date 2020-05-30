@@ -1,8 +1,6 @@
-package com.ft.myapplication.adaptor
+package com.ft.myapplication.adapter
 
-import android.R.attr.bitmap
 import android.graphics.BitmapFactory
-import android.graphics.Canvas
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup

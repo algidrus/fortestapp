@@ -1,18 +1,16 @@
 package com.ft.myapplication.fragment
 
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.ft.myapplication.FlagType
 import com.ft.myapplication.FlagsInfo
 import com.ft.myapplication.R
-import com.ft.myapplication.adaptor.FlagsAdapter
+import com.ft.myapplication.adapter.FlagsAdapter
 import com.ft.myapplication.presenter.SecondPresenter
 import com.ft.myapplication.view.SecondView
 
