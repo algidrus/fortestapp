@@ -1,4 +1,4 @@
-# fortestapp
+# fortestapp Android example of MVP
 This application for educational purposes
 
 App Achitecture based on MVP.
